@@ -1,0 +1,203 @@
+{
+	"title": "testSUMRoom",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_fullname",
+				"overallSUM"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_fullname"
+			],
+			"APPLY": [
+				{
+					"overallSUM": {
+						"SUM": "rooms_lat"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_fullname": "Allard Hall (LAW)",
+			"overallSUM": 246.35
+		},
+		{
+			"rooms_fullname": "Anthropology and Sociology",
+			"overallSUM": 197.08
+		},
+		{
+			"rooms_fullname": "Aquatic Ecosystems Research Laboratory",
+			"overallSUM": 49.26
+		},
+		{
+			"rooms_fullname": "Auditorium Annex",
+			"overallSUM": 98.53
+		},
+		{
+			"rooms_fullname": "Biological Sciences",
+			"overallSUM": 197.06
+		},
+		{
+			"rooms_fullname": "Brock Hall Annex",
+			"overallSUM": 98.54
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"overallSUM": 3005.36
+		},
+		{
+			"rooms_fullname": "Centre for Interactive  Research on Sustainability",
+			"overallSUM": 49.26
+		},
+		{
+			"rooms_fullname": "Chemical and Biological Engineering Building",
+			"overallSUM": 147.79
+		},
+		{
+			"rooms_fullname": "Chemistry",
+			"overallSUM": 295.6
+		},
+		{
+			"rooms_fullname": "Civil and Mechanical Engineering",
+			"overallSUM": 295.58
+		},
+		{
+			"rooms_fullname": "Earth and Ocean Sciences - Main",
+			"overallSUM": 49.26
+		},
+		{
+			"rooms_fullname": "Earth Sciences Building",
+			"overallSUM": 147.79
+		},
+		{
+			"rooms_fullname": "Food, Nutrition and Health",
+			"overallSUM": 295.58
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"overallSUM": 492.6
+		},
+		{
+			"rooms_fullname": "Frank Forward",
+			"overallSUM": 147.79
+		},
+		{
+			"rooms_fullname": "Frederic Lasserre",
+			"overallSUM": 295.61
+		},
+		{
+			"rooms_fullname": "Friedman Building",
+			"overallSUM": 49.27
+		},
+		{
+			"rooms_fullname": "Geography",
+			"overallSUM": 394.13
+		},
+		{
+			"rooms_fullname": "Hebb",
+			"overallSUM": 197.06
+		},
+		{
+			"rooms_fullname": "Hennings",
+			"overallSUM": 295.6
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"overallSUM": 1379.42
+		},
+		{
+			"rooms_fullname": "Hugh Dempster Pavilion",
+			"overallSUM": 246.31
+		},
+		{
+			"rooms_fullname": "Iona Building",
+			"overallSUM": 98.54
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"overallSUM": 886.82
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"overallSUM": 344.85
+		},
+		{
+			"rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+			"overallSUM": 197.06
+		},
+		{
+			"rooms_fullname": "Life Sciences Centre",
+			"overallSUM": 147.79
+		},
+		{
+			"rooms_fullname": "MacLeod",
+			"overallSUM": 295.57
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"overallSUM": 935.96
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"overallSUM": 394.13
+		},
+		{
+			"rooms_fullname": "Mathematics Annex",
+			"overallSUM": 49.27
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"overallSUM": 1083.81
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"overallSUM": 1034.47
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"overallSUM": 541.89
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"overallSUM": 394.11
+		},
+		{
+			"rooms_fullname": "Robert F. Osborne Centre",
+			"overallSUM": 147.78
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"overallSUM": 295.59
+		},
+		{
+			"rooms_fullname": "Student Recreation Centre",
+			"overallSUM": 147.8
+		},
+		{
+			"rooms_fullname": "The Leon and Thea Koerner University Centre",
+			"overallSUM": 197.07
+		},
+		{
+			"rooms_fullname": "War Memorial Gymnasium",
+			"overallSUM": 98.53
+		},
+		{
+			"rooms_fullname": "Wesbrook",
+			"overallSUM": 98.53
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"overallSUM": 1083.78
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"overallSUM": 788.24
+		}
+	]
+}

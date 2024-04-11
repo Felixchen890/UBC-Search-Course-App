@@ -1,0 +1,34 @@
+{
+	"title": "eqKeyWordTestAvg",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"sections_avg": 98
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_uuid",
+				"sections_instructor"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 98,
+			"sections_uuid": "46412",
+			"sections_instructor": "grady, albert wayne"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 98,
+			"sections_uuid": "46405",
+			"sections_instructor": "maillard, keith"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<title>Insight Engine</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<h1>Insight Search Engine - Rooms Version</h1>
+<p id="easter-egg" class="align-right">also play Terraria!</p>
+<div class="align-right">
+	<button id="switch-side-button" class="switch-button" onclick="location.href='index.html'">switch to courses engine</button>
+</div>
+<div>
+	<input id="professorName" type="text" placeholder="Enter the building's name">
+	<button id="prof-search-button" class="button" >Search for a room by name!</button>
+</div>
+<p>Searching for room with seats more than/less than/equals to your demand? use the field below!</p>
+<div>
+	<input id="room-capacity" type="text" placeholder="Enter the room capacity">
+	<select>
+		<option>Greater Than</option>
+		<option>Equals To</option>
+		<option>Less Than</option>
+	</select>
+	<button id="grade-search-button" class="button" >Search for rooms of this capacity!</button>
+</div>
+<div id="table-returned">
+	<p>seek the result below</p>
+</div>
+
+<script type="text/javascript" src="frontend.js"></script>
+</body>
+</html>

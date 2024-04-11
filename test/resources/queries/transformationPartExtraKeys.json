@@ -1,0 +1,30 @@
+{
+	"title": "transformationPartExtraKeys",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"overallAvg"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_title"
+			],
+			"APPLY": [
+				{
+					"overallAvg": {
+						"AVG": "sections_avg"
+					}
+				}
+			],
+			"COLUMNS": [
+				"sections_title",
+				"overallAvg"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

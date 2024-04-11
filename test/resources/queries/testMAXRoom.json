@@ -1,0 +1,203 @@
+{
+	"title": "testMAXRoom",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_fullname",
+				"overallMAX"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_fullname"
+			],
+			"APPLY": [
+				{
+					"overallMAX": {
+						"MAX": "rooms_lat"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_fullname": "Allard Hall (LAW)",
+			"overallMAX": 49.2699
+		},
+		{
+			"rooms_fullname": "Anthropology and Sociology",
+			"overallMAX": 49.26958
+		},
+		{
+			"rooms_fullname": "Aquatic Ecosystems Research Laboratory",
+			"overallMAX": 49.26372
+		},
+		{
+			"rooms_fullname": "Auditorium Annex",
+			"overallMAX": 49.2666
+		},
+		{
+			"rooms_fullname": "Biological Sciences",
+			"overallMAX": 49.26479
+		},
+		{
+			"rooms_fullname": "Brock Hall Annex",
+			"overallMAX": 49.26862
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"overallMAX": 49.26826
+		},
+		{
+			"rooms_fullname": "Centre for Interactive  Research on Sustainability",
+			"overallMAX": 49.26207
+		},
+		{
+			"rooms_fullname": "Chemical and Biological Engineering Building",
+			"overallMAX": 49.26228
+		},
+		{
+			"rooms_fullname": "Chemistry",
+			"overallMAX": 49.2659
+		},
+		{
+			"rooms_fullname": "Civil and Mechanical Engineering",
+			"overallMAX": 49.26273
+		},
+		{
+			"rooms_fullname": "Earth and Ocean Sciences - Main",
+			"overallMAX": 49.26228
+		},
+		{
+			"rooms_fullname": "Earth Sciences Building",
+			"overallMAX": 49.26274
+		},
+		{
+			"rooms_fullname": "Food, Nutrition and Health",
+			"overallMAX": 49.26414
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"overallMAX": 49.26044
+		},
+		{
+			"rooms_fullname": "Frank Forward",
+			"overallMAX": 49.26176
+		},
+		{
+			"rooms_fullname": "Frederic Lasserre",
+			"overallMAX": 49.26767
+		},
+		{
+			"rooms_fullname": "Friedman Building",
+			"overallMAX": 49.26541
+		},
+		{
+			"rooms_fullname": "Geography",
+			"overallMAX": 49.26605
+		},
+		{
+			"rooms_fullname": "Hebb",
+			"overallMAX": 49.2661
+		},
+		{
+			"rooms_fullname": "Hennings",
+			"overallMAX": 49.26627
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"overallMAX": 49.26486
+		},
+		{
+			"rooms_fullname": "Hugh Dempster Pavilion",
+			"overallMAX": 49.26125
+		},
+		{
+			"rooms_fullname": "Iona Building",
+			"overallMAX": 49.27106
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"overallMAX": 49.26766
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"overallMAX": 49.2643
+		},
+		{
+			"rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+			"overallMAX": 49.26545
+		},
+		{
+			"rooms_fullname": "Life Sciences Centre",
+			"overallMAX": 49.26236
+		},
+		{
+			"rooms_fullname": "MacLeod",
+			"overallMAX": 49.26176
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"overallMAX": 49.26114
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"overallMAX": 49.266463
+		},
+		{
+			"rooms_fullname": "Mathematics Annex",
+			"overallMAX": 49.266089
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"overallMAX": 49.26398
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"overallMAX": 49.26048
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"overallMAX": 49.26229
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"overallMAX": 49.264
+		},
+		{
+			"rooms_fullname": "Robert F. Osborne Centre",
+			"overallMAX": 49.26047
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"overallMAX": 49.2642
+		},
+		{
+			"rooms_fullname": "Student Recreation Centre",
+			"overallMAX": 49.2683
+		},
+		{
+			"rooms_fullname": "The Leon and Thea Koerner University Centre",
+			"overallMAX": 49.26867
+		},
+		{
+			"rooms_fullname": "War Memorial Gymnasium",
+			"overallMAX": 49.2663
+		},
+		{
+			"rooms_fullname": "Wesbrook",
+			"overallMAX": 49.26517
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"overallMAX": 49.26293
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"overallMAX": 49.26478
+		}
+	]
+}

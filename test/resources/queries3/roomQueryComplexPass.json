@@ -1,0 +1,37 @@
+{
+	"title": "roomQueryComplexPass",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"rooms_seats": 50
+							}
+						},
+						{
+							"IS": {
+								"rooms_furniture": "Tables"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"rooms_seats": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_seats",
+				"rooms_lat"
+			],
+			"ORDER": "rooms_seats"
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

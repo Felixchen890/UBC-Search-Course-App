@@ -1,0 +1,358 @@
+{
+	"title": "isKeyWordTestTitle",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "intr busnss law"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_title",
+				"sections_instructor"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "busi",
+			"sections_avg": 64.41,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 65.06,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 66.28,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 66.81,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 66.98,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.1,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.23,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.36,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "cox, barbara"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.5,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.58,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.75,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.85,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 67.89,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 68.16,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 68.21,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 68.25,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 68.3,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 68.57,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 68.57,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 68.95,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "cox, barbara"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 69,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 69.01,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 69.22,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 69.28,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "cox, barbara"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 69.51,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 69.88,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 70.22,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 70.26,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 70.51,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 70.89,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 71.03,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 71.09,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 71.17,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 71.3,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 71.3,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 71.77,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 71.91,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 72.11,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "cox, barbara"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 72.36,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 72.92,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 72.98,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 72.98,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "cox, barbara"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.16,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.16,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.2,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.2,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "cox, barbara"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.4,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.55,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.58,
+			"sections_title": "intr busnss law",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 73.58,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 74.13,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "mcintosh, ellen jane"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 74.74,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "cox, barbara"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 75.25,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "meredith, deborah"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 76.05,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "kanhai, devin"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 76.24,
+			"sections_title": "intr busnss law",
+			"sections_instructor": "kanhai, devin"
+		}
+	]
+}

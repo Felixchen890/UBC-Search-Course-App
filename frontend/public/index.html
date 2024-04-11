@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="charset=utf-8"/>
+		<title>Insight Engine</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Insight Search Engine - Courses Version</h1>
+		<p id="easter-egg" class="align-right">also play minecraft!</p>
+		<div class="align-right">
+			<button id="switch-side-button" class="switch-button" onclick="location.href='roomEngine.html'">switch to room engine</button>
+		</div>
+		<div>
+			<input id="professorName" type="text" placeholder="Enter the Professor's name">
+			<input id="professorDept" type="text" placeholder="Enter the Professor's Department">
+			<button id="prof-search-button" class="button" >Search for his/her course!</button>
+		</div>
+		<p>Searching for course with specific average? use the field below!</p>
+		<div>
+			<input id="course-average" type="text" placeholder="Enter the desired average">
+
+			<select id="relation">
+				<option>Greater Than</option>
+				<option>Equals To</option>
+				<option>Less Than</option>
+			</select>
+			<button id="grade-search-button" class="button" >Search for course of this average!</button>
+		</div>
+		<div id="returned">
+			<p>seek the result below</p>
+			<h3 id="err-message" class="error"></h3>
+			<table id="table-returned"></table>
+		</div>
+		<script type="text/javascript" src="frontend.js"></script>
+	</body>
+</html>

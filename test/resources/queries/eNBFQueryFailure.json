@@ -1,0 +1,9 @@
+{
+	"title": "ENBF Query Failure",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

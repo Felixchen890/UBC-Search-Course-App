@@ -1,0 +1,172 @@
+{
+	"title": "gtKeyWordTestAvg",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 98
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_uuid",
+				"sections_instructor"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.08,
+			"sections_uuid": "33779",
+			"sections_instructor": "cole, kenneth"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.21,
+			"sections_uuid": "73639",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.21,
+			"sections_uuid": "73638",
+			"sections_instructor": "krist, jennifer"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.36,
+			"sections_uuid": "33781",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.45,
+			"sections_uuid": "49678",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.45,
+			"sections_uuid": "49677",
+			"sections_instructor": "cannon, joanna"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.5,
+			"sections_uuid": "88152",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.5,
+			"sections_uuid": "88151",
+			"sections_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.58,
+			"sections_uuid": "96251",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.58,
+			"sections_uuid": "96250",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.58,
+			"sections_uuid": "29256",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.58,
+			"sections_uuid": "29255",
+			"sections_instructor": "grow, laura"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.7,
+			"sections_uuid": "33780",
+			"sections_instructor": "cole, kenneth"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.71,
+			"sections_uuid": "15344",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.71,
+			"sections_uuid": "15343",
+			"sections_instructor": "brew, nancy"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_avg": 98.75,
+			"sections_uuid": "10236",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "eece",
+			"sections_avg": 98.75,
+			"sections_uuid": "10235",
+			"sections_instructor": "coria, lino"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.76,
+			"sections_uuid": "44817",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.76,
+			"sections_uuid": "44816",
+			"sections_instructor": "grow, laura"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.8,
+			"sections_uuid": "6320",
+			"sections_instructor": "grow, laura"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 98.98,
+			"sections_uuid": "65070",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 98.98,
+			"sections_uuid": "65069",
+			"sections_instructor": "frank, erica"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 99.19,
+			"sections_uuid": "26777",
+			"sections_instructor": "cox, daniel"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 99.78,
+			"sections_uuid": "5374",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 99.78,
+			"sections_uuid": "5373",
+			"sections_instructor": "gomez, jose"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"title": "incorrect idstring test",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"LT": {
+						"sectionns_avg": 50
+					}
+				},
+				{
+					"IS": {
+						"sections_dept": "psyc"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

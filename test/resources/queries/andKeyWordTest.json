@@ -1,0 +1,40 @@
+{
+	"title": "andKeyWordTest",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "psyc"
+					}
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "psyc",
+			"sections_id": "501",
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_id": "501",
+			"sections_avg": 95
+		}
+	]
+}

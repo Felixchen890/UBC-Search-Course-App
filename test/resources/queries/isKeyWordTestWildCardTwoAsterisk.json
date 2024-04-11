@@ -1,0 +1,3298 @@
+{
+	"title": "isKeyWordTestWildCardTwoAsterisk",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "*oo*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_uuid",
+				"sections_instructor"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "wood",
+			"sections_avg": 1,
+			"sections_uuid": "49835",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 57.04,
+			"sections_uuid": "49808",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 57.04,
+			"sections_uuid": "49807",
+			"sections_instructor": "avramidis, stavros;tannert, thomas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 60.56,
+			"sections_uuid": "4295",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 60.56,
+			"sections_uuid": "4294",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 61,
+			"sections_uuid": "54404",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 64.62,
+			"sections_uuid": "57546",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 64.62,
+			"sections_uuid": "57545",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.54,
+			"sections_uuid": "49802",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.54,
+			"sections_uuid": "49801",
+			"sections_instructor": "cohen, david;ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.79,
+			"sections_uuid": "54401",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.79,
+			"sections_uuid": "54400",
+			"sections_instructor": "kozak, robert antal;panwar, rajat"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.83,
+			"sections_uuid": "4287",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.83,
+			"sections_uuid": "4286",
+			"sections_instructor": "cohen, david;ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.9,
+			"sections_uuid": "57544",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 66.9,
+			"sections_uuid": "57543",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.04,
+			"sections_uuid": "45495",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.04,
+			"sections_uuid": "45494",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.23,
+			"sections_uuid": "49806",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.23,
+			"sections_uuid": "49805",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.37,
+			"sections_uuid": "45493",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.37,
+			"sections_uuid": "45492",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.56,
+			"sections_uuid": "19251",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 67.56,
+			"sections_uuid": "19250",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.25,
+			"sections_uuid": "66549",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.25,
+			"sections_uuid": "66548",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.54,
+			"sections_uuid": "49830",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.54,
+			"sections_uuid": "49829",
+			"sections_instructor": "evans, philip david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.78,
+			"sections_uuid": "66551",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.78,
+			"sections_uuid": "66550",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.88,
+			"sections_uuid": "57585",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.88,
+			"sections_uuid": "4301",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.88,
+			"sections_uuid": "4300",
+			"sections_instructor": "cramond, pat"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.92,
+			"sections_uuid": "54378",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 68.92,
+			"sections_uuid": "54377",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69,
+			"sections_uuid": "85316",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.2,
+			"sections_uuid": "49844",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.28,
+			"sections_uuid": "54399",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.28,
+			"sections_uuid": "54398",
+			"sections_instructor": "mansfield, shawn"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.62,
+			"sections_uuid": "85317",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.85,
+			"sections_uuid": "19215",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.85,
+			"sections_uuid": "19214",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.86,
+			"sections_uuid": "19217",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.86,
+			"sections_uuid": "19216",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.92,
+			"sections_uuid": "66543",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69.92,
+			"sections_uuid": "66542",
+			"sections_instructor": "cohen, david;ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.27,
+			"sections_uuid": "85315",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.4,
+			"sections_uuid": "45519",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.4,
+			"sections_uuid": "45518",
+			"sections_instructor": "evans, philip david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.44,
+			"sections_uuid": "4299",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.44,
+			"sections_uuid": "4298",
+			"sections_instructor": "tba"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.52,
+			"sections_uuid": "19209",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.52,
+			"sections_uuid": "19208",
+			"sections_instructor": "cohen, david;ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.55,
+			"sections_uuid": "85327",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.55,
+			"sections_uuid": "85326",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.64,
+			"sections_uuid": "85314",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.64,
+			"sections_uuid": "85313",
+			"sections_instructor": "cohen, david;ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.78,
+			"sections_uuid": "54365",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.83,
+			"sections_uuid": "54363",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.83,
+			"sections_uuid": "54362",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.87,
+			"sections_uuid": "4293",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 70.87,
+			"sections_uuid": "4292",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.19,
+			"sections_uuid": "49810",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.19,
+			"sections_uuid": "49809",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.25,
+			"sections_uuid": "19245",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.25,
+			"sections_uuid": "19244",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.28,
+			"sections_uuid": "54366",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.29,
+			"sections_uuid": "19221",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.29,
+			"sections_uuid": "19220",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.5,
+			"sections_uuid": "54368",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.5,
+			"sections_uuid": "54367",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.57,
+			"sections_uuid": "66580",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.57,
+			"sections_uuid": "66579",
+			"sections_instructor": "tannert, thomas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 71.64,
+			"sections_uuid": "54364",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72,
+			"sections_uuid": "68559",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.07,
+			"sections_uuid": "85335",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.07,
+			"sections_uuid": "85334",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 72.07,
+			"sections_uuid": "78304",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 72.07,
+			"sections_uuid": "78303",
+			"sections_instructor": "durance, timothy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.08,
+			"sections_uuid": "45527",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.08,
+			"sections_uuid": "45526",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.13,
+			"sections_uuid": "54408",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.13,
+			"sections_uuid": "54407",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.28,
+			"sections_uuid": "54416",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.28,
+			"sections_uuid": "54415",
+			"sections_instructor": "cool, julie"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.32,
+			"sections_uuid": "45529",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.32,
+			"sections_uuid": "45528",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.37,
+			"sections_uuid": "49846",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.37,
+			"sections_uuid": "49845",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.55,
+			"sections_uuid": "66555",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.55,
+			"sections_uuid": "66554",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.68,
+			"sections_uuid": "4337",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.68,
+			"sections_uuid": "4336",
+			"sections_instructor": "cramond, pat"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.85,
+			"sections_uuid": "57538",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.85,
+			"sections_uuid": "57537",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.87,
+			"sections_uuid": "45499",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.87,
+			"sections_uuid": "45498",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.92,
+			"sections_uuid": "54410",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.92,
+			"sections_uuid": "54409",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.94,
+			"sections_uuid": "45487",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.94,
+			"sections_uuid": "45486",
+			"sections_instructor": "cohen, david;ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.97,
+			"sections_uuid": "54376",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 72.97,
+			"sections_uuid": "54375",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73,
+			"sections_uuid": "4326",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73,
+			"sections_uuid": "4325",
+			"sections_instructor": "blyt, christian"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.05,
+			"sections_uuid": "57587",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 73.13,
+			"sections_uuid": "14630",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 73.13,
+			"sections_uuid": "14629",
+			"sections_instructor": "madadi noei, azita;van vuuren, hendrik"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.26,
+			"sections_uuid": "49812",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.26,
+			"sections_uuid": "49811",
+			"sections_instructor": "tba"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.33,
+			"sections_uuid": "54403",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.33,
+			"sections_uuid": "54402",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.42,
+			"sections_uuid": "57550",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.42,
+			"sections_uuid": "57549",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.44,
+			"sections_uuid": "85319",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.44,
+			"sections_uuid": "85318",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.45,
+			"sections_uuid": "66586",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.45,
+			"sections_uuid": "66585",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.64,
+			"sections_uuid": "54390",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.64,
+			"sections_uuid": "54389",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.75,
+			"sections_uuid": "19257",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.8,
+			"sections_uuid": "19258",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.8,
+			"sections_uuid": "4309",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.8,
+			"sections_uuid": "4308",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.83,
+			"sections_uuid": "45501",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.83,
+			"sections_uuid": "45500",
+			"sections_instructor": "tba"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.95,
+			"sections_uuid": "57582",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 73.95,
+			"sections_uuid": "57581",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.29,
+			"sections_uuid": "45503",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.29,
+			"sections_uuid": "45502",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.35,
+			"sections_uuid": "54388",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.35,
+			"sections_uuid": "54387",
+			"sections_instructor": "winkelman, paul"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 74.41,
+			"sections_uuid": "30995",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 74.41,
+			"sections_uuid": "30994",
+			"sections_instructor": "allen, kevin"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.43,
+			"sections_uuid": "85337",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.43,
+			"sections_uuid": "85336",
+			"sections_instructor": "winkelman, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.44,
+			"sections_uuid": "49821",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.44,
+			"sections_uuid": "49820",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.47,
+			"sections_uuid": "4328",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.47,
+			"sections_uuid": "4327",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.63,
+			"sections_uuid": "4316",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.63,
+			"sections_uuid": "4315",
+			"sections_instructor": "cohen, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.71,
+			"sections_uuid": "45533",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.83,
+			"sections_uuid": "19256",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 74.9,
+			"sections_uuid": "66590",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.15,
+			"sections_uuid": "4289",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.15,
+			"sections_uuid": "4288",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.2,
+			"sections_uuid": "4303",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.2,
+			"sections_uuid": "4302",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.33,
+			"sections_uuid": "4333",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.41,
+			"sections_uuid": "66571",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.41,
+			"sections_uuid": "66570",
+			"sections_instructor": "cohen, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.5,
+			"sections_uuid": "85353",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.5,
+			"sections_uuid": "85352",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.52,
+			"sections_uuid": "54397",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.52,
+			"sections_uuid": "54396",
+			"sections_instructor": "cohen, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.56,
+			"sections_uuid": "19243",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.56,
+			"sections_uuid": "19242",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.57,
+			"sections_uuid": "66584",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.57,
+			"sections_uuid": "66583",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.57,
+			"sections_uuid": "49834",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.57,
+			"sections_uuid": "49833",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.58,
+			"sections_uuid": "66589",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 75.75,
+			"sections_uuid": "14552",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 75.75,
+			"sections_uuid": "14551",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.76,
+			"sections_uuid": "85333",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.76,
+			"sections_uuid": "85332",
+			"sections_instructor": "leung, vincent"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.86,
+			"sections_uuid": "19239",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.86,
+			"sections_uuid": "19238",
+			"sections_instructor": "evans, philip david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.88,
+			"sections_uuid": "45521",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.88,
+			"sections_uuid": "45520",
+			"sections_instructor": "kozak, robert antal"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.95,
+			"sections_uuid": "19223",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 75.95,
+			"sections_uuid": "19222",
+			"sections_instructor": "cramond, pat"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76,
+			"sections_uuid": "19211",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76,
+			"sections_uuid": "19210",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.1,
+			"sections_uuid": "57586",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.17,
+			"sections_uuid": "66545",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.17,
+			"sections_uuid": "66544",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.18,
+			"sections_uuid": "85341",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.18,
+			"sections_uuid": "85340",
+			"sections_instructor": "avramidis, stavros;cool, julie"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.2,
+			"sections_uuid": "57580",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.2,
+			"sections_uuid": "57579",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 76.2,
+			"sections_uuid": "8720",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 76.2,
+			"sections_uuid": "8719",
+			"sections_instructor": "lu, xiaonan"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.21,
+			"sections_uuid": "4322",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.21,
+			"sections_uuid": "4321",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.24,
+			"sections_uuid": "54382",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.24,
+			"sections_uuid": "54381",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.25,
+			"sections_uuid": "85347",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.25,
+			"sections_uuid": "85346",
+			"sections_instructor": "cohen, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.26,
+			"sections_uuid": "85363",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.26,
+			"sections_uuid": "85362",
+			"sections_instructor": "griess, verena;sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.32,
+			"sections_uuid": "45525",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.32,
+			"sections_uuid": "45524",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.36,
+			"sections_uuid": "19255",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.36,
+			"sections_uuid": "19254",
+			"sections_instructor": "nelson, john douglas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.41,
+			"sections_uuid": "85359",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.41,
+			"sections_uuid": "85358",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.44,
+			"sections_uuid": "85365",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.44,
+			"sections_uuid": "85364",
+			"sections_instructor": "cool, julie"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.45,
+			"sections_uuid": "45535",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.45,
+			"sections_uuid": "45534",
+			"sections_instructor": "cramond, pat"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.45,
+			"sections_uuid": "45509",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.45,
+			"sections_uuid": "45508",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.52,
+			"sections_uuid": "54406",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.52,
+			"sections_uuid": "54405",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.54,
+			"sections_uuid": "45532",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 76.55,
+			"sections_uuid": "25513",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 76.55,
+			"sections_uuid": "25512",
+			"sections_instructor": "allen, kevin"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.58,
+			"sections_uuid": "49837",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.58,
+			"sections_uuid": "49836",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.62,
+			"sections_uuid": "49839",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.62,
+			"sections_uuid": "49838",
+			"sections_instructor": "smith, gregory"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.68,
+			"sections_uuid": "54386",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.68,
+			"sections_uuid": "54385",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 76.68,
+			"sections_uuid": "78317",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 76.68,
+			"sections_uuid": "78316",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.75,
+			"sections_uuid": "19225",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.75,
+			"sections_uuid": "19224",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.79,
+			"sections_uuid": "85351",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.79,
+			"sections_uuid": "85350",
+			"sections_instructor": "kozak, robert antal;panwar, rajat"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.89,
+			"sections_uuid": "57576",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.89,
+			"sections_uuid": "57575",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.91,
+			"sections_uuid": "57584",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 76.91,
+			"sections_uuid": "57583",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77,
+			"sections_uuid": "24858",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77,
+			"sections_uuid": "24857",
+			"sections_instructor": "allen, kevin"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.1,
+			"sections_uuid": "4318",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.1,
+			"sections_uuid": "4317",
+			"sections_instructor": "evans, philip david"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77.13,
+			"sections_uuid": "93713",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77.13,
+			"sections_uuid": "93712",
+			"sections_instructor": "allen, kevin"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.16,
+			"sections_uuid": "49832",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.16,
+			"sections_uuid": "49831",
+			"sections_instructor": "fell, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.25,
+			"sections_uuid": "66577",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.25,
+			"sections_uuid": "66576",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.25,
+			"sections_uuid": "57562",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.25,
+			"sections_uuid": "57561",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.33,
+			"sections_uuid": "66578",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.37,
+			"sections_uuid": "54412",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.37,
+			"sections_uuid": "54411",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.39,
+			"sections_uuid": "4335",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.45,
+			"sections_uuid": "85339",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.45,
+			"sections_uuid": "85338",
+			"sections_instructor": "renneckar, scott"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.47,
+			"sections_uuid": "19231",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.47,
+			"sections_uuid": "19230",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.53,
+			"sections_uuid": "4320",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.53,
+			"sections_uuid": "4319",
+			"sections_instructor": "kozak, robert antal"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77.57,
+			"sections_uuid": "24856",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77.57,
+			"sections_uuid": "24855",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.68,
+			"sections_uuid": "66559",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.68,
+			"sections_uuid": "66558",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.69,
+			"sections_uuid": "45531",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.69,
+			"sections_uuid": "45530",
+			"sections_instructor": "vahid, saba"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.71,
+			"sections_uuid": "85343",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.71,
+			"sections_uuid": "85342",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77.76,
+			"sections_uuid": "14562",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 77.76,
+			"sections_uuid": "14561",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.89,
+			"sections_uuid": "54380",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.89,
+			"sections_uuid": "54379",
+			"sections_instructor": "avramidis, stavros;tannert, thomas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.92,
+			"sections_uuid": "19241",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 77.92,
+			"sections_uuid": "19240",
+			"sections_instructor": "kozak, robert antal"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78,
+			"sections_uuid": "19260",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78,
+			"sections_uuid": "19259",
+			"sections_instructor": "cramond, pat"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78,
+			"sections_uuid": "14626",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78,
+			"sections_uuid": "14625",
+			"sections_instructor": "li-chan, eunice"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.1,
+			"sections_uuid": "66582",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.1,
+			"sections_uuid": "66581",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.25,
+			"sections_uuid": "8726",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.25,
+			"sections_uuid": "8725",
+			"sections_instructor": "kovacevic, jovana"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.29,
+			"sections_uuid": "54392",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.29,
+			"sections_uuid": "54391",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.29,
+			"sections_uuid": "14636",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.29,
+			"sections_uuid": "14635",
+			"sections_instructor": "madadi noei, azita;yaghmaee, parastoo"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.43,
+			"sections_uuid": "30985",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.43,
+			"sections_uuid": "30984",
+			"sections_instructor": "li-chan, eunice"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.48,
+			"sections_uuid": "45517",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.48,
+			"sections_uuid": "45516",
+			"sections_instructor": "cohen, david"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.55,
+			"sections_uuid": "8714",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.55,
+			"sections_uuid": "8713",
+			"sections_instructor": "li-chan, eunice"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.57,
+			"sections_uuid": "57570",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.57,
+			"sections_uuid": "57569",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.63,
+			"sections_uuid": "85361",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.63,
+			"sections_uuid": "85360",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.68,
+			"sections_uuid": "19235",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.68,
+			"sections_uuid": "19234",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.71,
+			"sections_uuid": "4330",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.71,
+			"sections_uuid": "4329",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.71,
+			"sections_uuid": "24864",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.71,
+			"sections_uuid": "24863",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.71,
+			"sections_uuid": "93717",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 78.71,
+			"sections_uuid": "93716",
+			"sections_instructor": "kitts, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.76,
+			"sections_uuid": "85331",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.76,
+			"sections_uuid": "85330",
+			"sections_instructor": "leung, vincent"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.86,
+			"sections_uuid": "57566",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.86,
+			"sections_uuid": "57565",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.89,
+			"sections_uuid": "85355",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 78.89,
+			"sections_uuid": "85354",
+			"sections_instructor": "leung, vincent"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.06,
+			"sections_uuid": "25509",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.06,
+			"sections_uuid": "25508",
+			"sections_instructor": "madadi noei, azita"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.13,
+			"sections_uuid": "49828",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.13,
+			"sections_uuid": "49827",
+			"sections_instructor": "cohen, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.17,
+			"sections_uuid": "85329",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.17,
+			"sections_uuid": "85328",
+			"sections_instructor": "avramidis, stavros;tannert, thomas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.2,
+			"sections_uuid": "54372",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.2,
+			"sections_uuid": "54371",
+			"sections_instructor": "saddler, john"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.22,
+			"sections_uuid": "17913",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.22,
+			"sections_uuid": "17912",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.25,
+			"sections_uuid": "25505",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.25,
+			"sections_uuid": "25504",
+			"sections_instructor": "wasik, ronald"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.31,
+			"sections_uuid": "45523",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.31,
+			"sections_uuid": "45522",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.35,
+			"sections_uuid": "14542",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.35,
+			"sections_uuid": "14541",
+			"sections_instructor": "li-chan, eunice"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.48,
+			"sections_uuid": "57578",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.48,
+			"sections_uuid": "57577",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.53,
+			"sections_uuid": "78306",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.53,
+			"sections_uuid": "78305",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.55,
+			"sections_uuid": "4334",
+			"sections_instructor": "ellis, simon"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.57,
+			"sections_uuid": "8734",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.57,
+			"sections_uuid": "8733",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.68,
+			"sections_uuid": "66588",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.68,
+			"sections_uuid": "66587",
+			"sections_instructor": "nelson, john douglas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.7,
+			"sections_uuid": "49843",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.7,
+			"sections_uuid": "49842",
+			"sections_instructor": "nelson, john douglas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.7,
+			"sections_uuid": "66575",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.7,
+			"sections_uuid": "66574",
+			"sections_instructor": "kozak, robert antal"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.7,
+			"sections_uuid": "78310",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.7,
+			"sections_uuid": "78309",
+			"sections_instructor": "durance, timothy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.75,
+			"sections_uuid": "54414",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.75,
+			"sections_uuid": "54413",
+			"sections_instructor": "nelson, john douglas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.75,
+			"sections_uuid": "57574",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.75,
+			"sections_uuid": "57573",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.86,
+			"sections_uuid": "49814",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 79.86,
+			"sections_uuid": "49813",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.95,
+			"sections_uuid": "14642",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 79.95,
+			"sections_uuid": "14641",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80,
+			"sections_uuid": "49823",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80,
+			"sections_uuid": "49822",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80,
+			"sections_uuid": "25519",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80,
+			"sections_uuid": "25518",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80,
+			"sections_uuid": "8728",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80,
+			"sections_uuid": "8727",
+			"sections_instructor": "madadi noei, azita;zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.05,
+			"sections_uuid": "57572",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.06,
+			"sections_uuid": "66569",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.06,
+			"sections_uuid": "66568",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.14,
+			"sections_uuid": "31003",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.14,
+			"sections_uuid": "31002",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.17,
+			"sections_uuid": "57540",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.17,
+			"sections_uuid": "57539",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.21,
+			"sections_uuid": "25515",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.21,
+			"sections_uuid": "25514",
+			"sections_instructor": "friesen, erin;madadi noei, azita"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.35,
+			"sections_uuid": "85357",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.35,
+			"sections_uuid": "85356",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.36,
+			"sections_uuid": "93709",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.36,
+			"sections_uuid": "93708",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.4,
+			"sections_uuid": "66565",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.4,
+			"sections_uuid": "66564",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.5,
+			"sections_uuid": "30989",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.5,
+			"sections_uuid": "30988",
+			"sections_instructor": "lu, xiaonan"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.5,
+			"sections_uuid": "17911",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.5,
+			"sections_uuid": "17910",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.53,
+			"sections_uuid": "24850",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.53,
+			"sections_uuid": "24849",
+			"sections_instructor": "li-chan, eunice"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.61,
+			"sections_uuid": "54418",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.61,
+			"sections_uuid": "54417",
+			"sections_instructor": "fuerst, robert;kozak, robert antal"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.64,
+			"sections_uuid": "85367",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.64,
+			"sections_uuid": "85366",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.71,
+			"sections_uuid": "8724",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.71,
+			"sections_uuid": "8723",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.75,
+			"sections_uuid": "14632",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 80.75,
+			"sections_uuid": "14631",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.78,
+			"sections_uuid": "57589",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.78,
+			"sections_uuid": "57588",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.79,
+			"sections_uuid": "19253",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.79,
+			"sections_uuid": "19252",
+			"sections_instructor": "tba"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.86,
+			"sections_uuid": "45513",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.86,
+			"sections_uuid": "45512",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.95,
+			"sections_uuid": "4332",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 80.95,
+			"sections_uuid": "4331",
+			"sections_instructor": "nelson, john douglas"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.02,
+			"sections_uuid": "54394",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.02,
+			"sections_uuid": "54393",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.05,
+			"sections_uuid": "57571",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.2,
+			"sections_uuid": "25503",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.2,
+			"sections_uuid": "25502",
+			"sections_instructor": "li-chan, eunice"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.24,
+			"sections_uuid": "66557",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.24,
+			"sections_uuid": "66556",
+			"sections_instructor": "tba"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.5,
+			"sections_uuid": "66572",
+			"sections_instructor": "evans, philip david"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.5,
+			"sections_uuid": "82466",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.5,
+			"sections_uuid": "82465",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.53,
+			"sections_uuid": "85323",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.53,
+			"sections_uuid": "85322",
+			"sections_instructor": "saddler, john"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.55,
+			"sections_uuid": "30997",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.55,
+			"sections_uuid": "30996",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.62,
+			"sections_uuid": "17919",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.62,
+			"sections_uuid": "17918",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.76,
+			"sections_uuid": "66573",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.8,
+			"sections_uuid": "14638",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.8,
+			"sections_uuid": "14637",
+			"sections_instructor": "kitts, david"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.8,
+			"sections_uuid": "93711",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.8,
+			"sections_uuid": "93710",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.86,
+			"sections_uuid": "24854",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.86,
+			"sections_uuid": "24853",
+			"sections_instructor": "madadi noei, azita;van vuuren, hendrik"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.9,
+			"sections_uuid": "49841",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.9,
+			"sections_uuid": "49840",
+			"sections_instructor": "mcfarlane, paul"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.91,
+			"sections_uuid": "17917",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 81.91,
+			"sections_uuid": "17916",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.97,
+			"sections_uuid": "19237",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 81.97,
+			"sections_uuid": "19236",
+			"sections_instructor": "cohen, david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82,
+			"sections_uuid": "54384",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82,
+			"sections_uuid": "54383",
+			"sections_instructor": "leung, vincent"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.07,
+			"sections_uuid": "82460",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.07,
+			"sections_uuid": "82459",
+			"sections_instructor": "li-chan, eunice"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.08,
+			"sections_uuid": "93715",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.08,
+			"sections_uuid": "93714",
+			"sections_instructor": "madadi noei, azita;yaghmaee, parastoo"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.1,
+			"sections_uuid": "85325",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.1,
+			"sections_uuid": "85324",
+			"sections_instructor": "lam, frank"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.17,
+			"sections_uuid": "19249",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.17,
+			"sections_uuid": "19248",
+			"sections_instructor": "fuerst, robert"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.3,
+			"sections_uuid": "14634",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.3,
+			"sections_uuid": "14633",
+			"sections_instructor": "facon, michel"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.38,
+			"sections_uuid": "57552",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.38,
+			"sections_uuid": "57551",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.38,
+			"sections_uuid": "24852",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.38,
+			"sections_uuid": "24851",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.44,
+			"sections_uuid": "4313",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 82.44,
+			"sections_uuid": "4312",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.57,
+			"sections_uuid": "14628",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.57,
+			"sections_uuid": "14627",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.63,
+			"sections_uuid": "14548",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.63,
+			"sections_uuid": "14547",
+			"sections_instructor": "lu, xiaonan"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.65,
+			"sections_uuid": "82468",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.65,
+			"sections_uuid": "82467",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.8,
+			"sections_uuid": "30999",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.8,
+			"sections_uuid": "30998",
+			"sections_instructor": "kitts, david"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.92,
+			"sections_uuid": "14556",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 82.92,
+			"sections_uuid": "14555",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 83.11,
+			"sections_uuid": "93707",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 83.11,
+			"sections_uuid": "93706",
+			"sections_instructor": "madadi noei, azita;zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 83.13,
+			"sections_uuid": "85321",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 83.13,
+			"sections_uuid": "85320",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 83.25,
+			"sections_uuid": "17923",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 83.25,
+			"sections_uuid": "17922",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 83.67,
+			"sections_uuid": "79693",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 83.7,
+			"sections_uuid": "8722",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 83.7,
+			"sections_uuid": "8721",
+			"sections_instructor": "wang, siyun"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 83.83,
+			"sections_uuid": "85349",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 83.83,
+			"sections_uuid": "85348",
+			"sections_instructor": "evans, philip david"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84,
+			"sections_uuid": "85345",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84,
+			"sections_uuid": "85344",
+			"sections_instructor": "sowlati, taraneh"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84,
+			"sections_uuid": "14546",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84,
+			"sections_uuid": "14545",
+			"sections_instructor": "wasik, ronald"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84,
+			"sections_uuid": "8718",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84,
+			"sections_uuid": "8717",
+			"sections_instructor": "wasik, ronald"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84.17,
+			"sections_uuid": "66592",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84.17,
+			"sections_uuid": "66591",
+			"sections_instructor": "cramond, pat"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84.17,
+			"sections_uuid": "57554",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84.17,
+			"sections_uuid": "57553",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.25,
+			"sections_uuid": "30993",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.25,
+			"sections_uuid": "30992",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84.38,
+			"sections_uuid": "49804",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 84.38,
+			"sections_uuid": "49803",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.38,
+			"sections_uuid": "93722",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.38,
+			"sections_uuid": "93721",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.44,
+			"sections_uuid": "78312",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.44,
+			"sections_uuid": "78311",
+			"sections_instructor": "kitts, david"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.45,
+			"sections_uuid": "82462",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.45,
+			"sections_uuid": "82461",
+			"sections_instructor": "wasik, ronald"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.5,
+			"sections_uuid": "14564",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.5,
+			"sections_uuid": "14563",
+			"sections_instructor": "cliff, margaret anne"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.57,
+			"sections_uuid": "31005",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.57,
+			"sections_uuid": "31004",
+			"sections_instructor": "cliff, margaret anne"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.58,
+			"sections_uuid": "14554",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.58,
+			"sections_uuid": "14553",
+			"sections_instructor": "keeney, kristie"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.71,
+			"sections_uuid": "25511",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.71,
+			"sections_uuid": "25510",
+			"sections_instructor": "scaman, christine"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.71,
+			"sections_uuid": "30987",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.71,
+			"sections_uuid": "30986",
+			"sections_instructor": "wasik, ronald"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.86,
+			"sections_uuid": "93724",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 84.86,
+			"sections_uuid": "93723",
+			"sections_instructor": "cliff, margaret anne;madadi noei, azita"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 85,
+			"sections_uuid": "75987",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 85,
+			"sections_uuid": "75986",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85,
+			"sections_uuid": "25507",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85,
+			"sections_uuid": "25506",
+			"sections_instructor": "zawistowski, jerzy"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.25,
+			"sections_uuid": "24860",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.25,
+			"sections_uuid": "24859",
+			"sections_instructor": "madadi noei, azita;yaghmaee, parastoo"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.29,
+			"sections_uuid": "8736",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.29,
+			"sections_uuid": "8735",
+			"sections_instructor": "cliff, margaret anne"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.29,
+			"sections_uuid": "17915",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.29,
+			"sections_uuid": "17914",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.43,
+			"sections_uuid": "24866",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 85.43,
+			"sections_uuid": "24865",
+			"sections_instructor": "cliff, margaret anne;madadi noei, azita"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86,
+			"sections_uuid": "30991",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86,
+			"sections_uuid": "30990",
+			"sections_instructor": "wang, siyun"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 86.14,
+			"sections_uuid": "45489",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 86.14,
+			"sections_uuid": "45488",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 86.25,
+			"sections_uuid": "37714",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 86.25,
+			"sections_uuid": "37713",
+			"sections_instructor": "milsom, william"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86.29,
+			"sections_uuid": "78308",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86.29,
+			"sections_uuid": "78307",
+			"sections_instructor": "facon, michel"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86.36,
+			"sections_uuid": "8730",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86.36,
+			"sections_uuid": "8729",
+			"sections_instructor": "kitts, david"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 86.8,
+			"sections_uuid": "84784",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86.94,
+			"sections_uuid": "14558",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 86.94,
+			"sections_uuid": "14557",
+			"sections_instructor": "kitts, david"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87,
+			"sections_uuid": "79695",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 87.09,
+			"sections_uuid": "82464",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 87.09,
+			"sections_uuid": "82463",
+			"sections_instructor": "lu, xiaonan"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.14,
+			"sections_uuid": "42437",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.2,
+			"sections_uuid": "79696",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 87.57,
+			"sections_uuid": "25521",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 87.57,
+			"sections_uuid": "25520",
+			"sections_instructor": "cliff, margaret anne"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.7,
+			"sections_uuid": "42438",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 87.75,
+			"sections_uuid": "22774",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.08,
+			"sections_uuid": "84783",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 88.29,
+			"sections_uuid": "14550",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 88.29,
+			"sections_uuid": "14549",
+			"sections_instructor": "wang, siyun"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.67,
+			"sections_uuid": "22773",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.75,
+			"sections_uuid": "14987",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 88.88,
+			"sections_uuid": "84785",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89,
+			"sections_uuid": "79694",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89,
+			"sections_uuid": "42436",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 89,
+			"sections_uuid": "54370",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 89,
+			"sections_uuid": "54369",
+			"sections_instructor": "avramidis, stavros"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.17,
+			"sections_uuid": "14988",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.27,
+			"sections_uuid": "14990",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 89.38,
+			"sections_uuid": "14544",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 89.38,
+			"sections_uuid": "14543",
+			"sections_instructor": "ross, nancy"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.45,
+			"sections_uuid": "42435",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.45,
+			"sections_uuid": "42434",
+			"sections_instructor": "dalziel, anne c;porteus, cosima sandra"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.5,
+			"sections_uuid": "31743",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.5,
+			"sections_uuid": "31742",
+			"sections_instructor": "matthews, philip"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.56,
+			"sections_uuid": "14986",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.56,
+			"sections_uuid": "14985",
+			"sections_instructor": "schulte, patricia"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 89.57,
+			"sections_uuid": "6540",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 90.2,
+			"sections_uuid": "6541",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 90.45,
+			"sections_uuid": "5076",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 90.45,
+			"sections_uuid": "5075",
+			"sections_instructor": "matthews, philip"
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 90.68,
+			"sections_uuid": "8716",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "food",
+			"sections_avg": 90.68,
+			"sections_uuid": "8715",
+			"sections_instructor": "ross, nancy"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 91.67,
+			"sections_uuid": "75427",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 91.67,
+			"sections_uuid": "75426",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92,
+			"sections_uuid": "14989",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.1,
+			"sections_uuid": "126",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.1,
+			"sections_uuid": "125",
+			"sections_instructor": "savage, ken;shadwick, robert edward"
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.71,
+			"sections_uuid": "84780",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "zool",
+			"sections_avg": 92.71,
+			"sections_uuid": "84779",
+			"sections_instructor": ""
+		}
+	]
+}
